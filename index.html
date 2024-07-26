@@ -8,6 +8,9 @@
     <meta property="og:site_name" content="40407.com" />
     <meta property="og:title" content="Free Download Skins for Roblox APK for Android - 40407" />
     <meta property="og:type" content="website" />
+    <meta property="og:description" content="A free messaging app for everybody" />
+    <meta property="og:url" content="https://apkpure.com/whatsapp-business/com.whatsapp.w4b" />
+    <meta property="og:image" content="https://img.gamespot.com.cn/test1.jpg" />
     <meta name="applicable-device" content="mobile" />
     <meta http-equiv="Cache-Control" content="no-transform" />
     <meta name="format-detection" content="telephone=no" />
@@ -32,7 +35,6 @@
     <script src="static/js/global.js" type="text/javascript"></script>
     <script src="static/js/index.js" type="text/javascript"></script>
     <script type="text/javascript" src="static/js/swiper.min.js"></script>
-    <script async src="static/js/8a038bacfc944aecbeeac8d5de06161d.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -129,6 +131,201 @@
 
       .tex-content {
         padding-bottom: 0.6rem !important;
+      }
+    </style>
+    <!-- share -->
+    <style>
+      .follow-warp {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+      }
+      .follow-warp.details {
+        margin-bottom: 12px;
+        margin-top: 12px;
+      }
+      .follow-warp.normal-download {
+        padding: 0 16px;
+      }
+      @media screen and (min-width: 720px) {
+        .follow-warp.details {
+          margin-bottom: 0;
+          margin-top: 8px;
+        }
+      }
+      .follow-warp .plus {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        position: relative;
+      }
+      .follow-warp .plus:before,
+      .follow-warp .plus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #6e6d79;
+      }
+      .follow-warp .plus:before {
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .follow-warp .plus:after {
+        height: 100%;
+        width: 2px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .follow-warp .custom-details-share-box {
+        display: flex;
+        gap: 4px;
+      }
+      .follow-warp .custom-details-share-box .share-counter {
+        color: #6e6d79;
+        font-weight: 500;
+        margin: 0;
+        cursor: initial;
+        font-size: 12px;
+        background-color: #f2f5f9;
+        border-radius: 4px;
+      }
+      .follow-warp .custom-details-share-box .share-counter::after {
+        top: 33%;
+        border-color: transparent #f2f5f9 transparent transparent;
+      }
+      .follow-warp .custom-details-share-box svg {
+        fill: #6e6d79;
+        width: initial;
+        height: initial;
+      }
+      .follow-warp .custom-details-share-box a {
+        height: 32px;
+        width: 32px;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding-top: 2px;
+        background-color: #ffffff;
+        cursor: pointer;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .follow-warp .custom-details-share-box a:active {
+        background: rgba(64, 135, 247, 0.1);
+        border-color: transparent;
+      }
+      .follow-warp .custom-details-share-box a:active svg {
+        fill: #4087f7;
+      }
+      @media (any-hover: hover) {
+        .follow-warp .custom-details-share-box a:hover {
+          background: rgba(64, 135, 247, 0.1);
+          border-color: transparent;
+        }
+        .follow-warp .custom-details-share-box a:hover svg {
+          fill: #4087f7;
+        }
+      }
+      .follow-warp .custom-details-share-box a.share-more:active svg {
+        stroke: #4087f7;
+      }
+      @media (any-hover: hover) {
+        .follow-warp .custom-details-share-box a.share-more:hover svg {
+          stroke: #4087f7;
+        }
+      }
+      .follow-warp .custom-details-share-box a.share-more svg {
+        stroke: #6e6d79;
+        fill: transparent;
+      }
+      .follow-warp .follow-but {
+        cursor: pointer;
+        flex-shrink: 0;
+        color: #6e6d79;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 6px 8px;
+        width: 70px;
+        height: 32px;
+        border: 1px solid #e7e7e7;
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .follow-warp .follow-but:active {
+        background: rgba(250, 139, 22, 0.1);
+        color: #fa8b16;
+        border-color: transparent;
+      }
+      .follow-warp .follow-but:active .plus:before,
+      .follow-warp .follow-but:active .plus:after {
+        background-color: #fa8b16;
+      }
+      @media (any-hover: hover) {
+        .follow-warp .follow-but:hover {
+          background: rgba(250, 139, 22, 0.1);
+          color: #fa8b16;
+          border-color: transparent;
+        }
+        .follow-warp .follow-but:hover .plus:before,
+        .follow-warp .follow-but:hover .plus:after {
+          background-color: #fa8b16;
+        }
+      }
+      .follow-warp .follow-but.follow-but-pc[data-follow="false"]:hover::after {
+        content: attr(data-title);
+        background: #fff4e8;
+        border-radius: 4px;
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        width: max-content;
+        right: 0;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fa8b16;
+        padding: 4px 8px;
+        overflow: hidden;
+        white-space: initial;
+        z-index: 2;
+        max-width: 600px;
+      }
+      @media screen and (max-width: 719px) {
+        .follow-warp .follow-but.follow-but-pc[data-follow="false"]:hover::after {
+          width: auto;
+        }
+      }
+      .follow-warp .follow-but.follow-but-pc[data-follow="false"]:hover::before {
+        content: " ";
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: -16px;
+        right: 4px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 14px solid #fff4e8;
+        z-index: 1;
+      }
+
+      .follow-warp .follow-but.follow-but-pc[data-follow="false"]:hover::before {
+        left: 4px;
+        right: initial;
+      }
+      .follow-warp .follow-but.follow-but-pc[data-follow="false"]:hover::after {
+        left: 0;
+        right: initial;
       }
     </style>
   </head>
@@ -366,6 +563,106 @@
             <a href="javascript:;" class="pc btn downlink" style="display: none"><i></i> </a>
             <a href="javascript:;" class="no btn downlink" style="display: none"> No download yet </a>
           </div>
+
+          <!-- share start-->
+          <div class="follow-warp details">
+            <div class="custom-details-share-box share-toolbox">
+              <a href="javascript:shareToFacebook();" class="follow-share-facebook">
+                <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.01344 0.429375V2.54476H6.67841C6.19088 2.54476 5.86208 2.64091 5.69201 2.83322C5.52195 3.02553 5.43691 3.31399 5.43691 3.69861V5.21303H7.92841L7.59678 7.58482H5.43691V13.6666H2.83487V7.58482H0.666504V5.21303H2.83487V3.46623C2.83487 2.47264 3.12966 1.70208 3.71923 1.15454C4.30879 0.606993 5.09394 0.333221 6.07467 0.333221C6.908 0.333221 7.55426 0.365273 8.01344 0.429375Z" />
+                </svg>
+              </a>
+              <a href="javascript:shareToX();" class="follow-share-twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16">
+                  <path d="M 2.296875 2 C 2.052875 2 1.9117344 2.2756094 2.0527344 2.4746094 L 6.4882812 8.7050781 L 2.0136719 14 L 3.3457031 14 L 7.09375 9.5527344 L 9.9609375 13.580078 C 10.148938 13.844078 10.452391 14 10.775391 14 L 13.703125 14 C 13.947125 14 14.088266 13.724391 13.947266 13.525391 L 9.2753906 6.9628906 L 13.457031 2 L 12.154297 2 L 8.6738281 6.1191406 L 6.0390625 2.4199219 C 5.8510625 2.1559219 5.5476094 2 5.2246094 2 L 2.296875 2 z M 3.6542969 3 L 5.2246094 3 L 12.345703 13 L 10.775391 13 L 3.6542969 3 z"></path>
+                </svg>
+              </a>
+              <a href="javascript:shareToWhatsapp();" class="follow-share-whatsapp">
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8687 10.6716C11.645 10.6716 11.2145 11.5073 10.956 11.5073C10.8886 11.5045 10.8232 11.4838 10.7666 11.4472C10.2844 11.2055 9.86228 10.956 9.46606 10.5772C9.13838 10.267 8.77703 9.8016 8.58823 9.39696C8.56218 9.35863 8.54701 9.31395 8.54434 9.26769C8.54434 9.06927 9.13958 8.6995 9.13958 8.37182C9.13958 8.28584 8.70067 7.11521 8.63934 6.9679C8.55336 6.74424 8.51067 6.67509 8.27859 6.67509C8.16615 6.67509 8.06214 6.64924 7.95993 6.64924C7.77835 6.64924 7.64126 6.71838 7.51139 6.83863C7.09773 7.22644 6.8909 7.63108 6.87407 8.19987V8.26841C6.86505 8.86365 7.15786 9.45708 7.48554 9.93988C8.22508 11.0342 8.99227 11.9901 10.2236 12.5493C10.594 12.7219 11.4472 13.0832 11.8602 13.0832C12.3515 13.0832 13.1529 12.7736 13.3501 12.2908C13.4283 12.0924 13.4968 11.8519 13.4968 11.6366C13.4968 11.6017 13.4968 11.55 13.4788 11.5073C13.4187 11.4039 12.0154 10.6716 11.8687 10.6716ZM10.1202 15.2369C9.06983 15.2369 8.02787 14.9182 7.14884 14.341L5.0643 15.0036L5.74492 12.9972C5.07349 12.0767 4.7114 10.9669 4.71077 9.82745C4.71077 6.84825 7.13982 4.4192 10.1202 4.4192C13.1006 4.4192 15.5303 6.84765 15.5303 9.82685C15.5303 12.8078 13.1012 15.2369 10.1202 15.2369ZM10.1202 3.33334C6.53677 3.33334 3.62671 6.2446 3.62671 9.82685C3.62671 11.0077 3.94538 12.1705 4.55625 13.1782L3.38501 16.6667L6.97688 15.5123C7.9659 16.0583 9.08017 16.337 10.2098 16.3209C11.3394 16.3048 12.4453 15.9944 13.4183 15.4205C14.3914 14.8466 15.198 14.0288 15.7586 13.048C16.3191 12.0672 16.6143 10.9572 16.6149 9.82745C16.6149 6.2452 13.7037 3.33334 10.1202 3.33334Z" />
+                </svg>
+              </a>
+              <a href="javascript:shareToReddit();" class="follow-share-reddit">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16">
+                  <path d="M 9 1 C 8.460938 1 7.949219 1.1875 7.578125 1.546875 C 7.210938 1.902344 7 2.421875 7 3 L 7 4.046875 C 5.503906 4.132813 4.148438 4.59375 3.101563 5.335938 C 2.792969 5.148438 2.449219 5.035156 2.101563 5.011719 C 1.515625 4.972656 0.902344 5.148438 0.484375 5.613281 L 0.476563 5.625 L 0.46875 5.632813 C 0.0820313 6.117188 -0.0742188 6.769531 0.03125 7.414063 C 0.121094 7.984375 0.453125 8.542969 1.007813 8.933594 C 1.003906 8.960938 1 8.984375 1 9.007813 C 1 10.425781 1.769531 11.699219 2.949219 12.589844 C 4.128906 13.476563 5.730469 14.011719 7.5 14.011719 C 9.269531 14.011719 10.871094 13.476563 12.050781 12.589844 C 13.230469 11.699219 14 10.425781 14 9.007813 C 14 8.984375 13.996094 8.960938 13.996094 8.933594 C 14.546875 8.542969 14.878906 7.984375 14.96875 7.417969 C 15.074219 6.769531 14.917969 6.117188 14.53125 5.632813 L 14.519531 5.625 L 14.515625 5.613281 C 14.101563 5.148438 13.488281 4.972656 12.90625 5.007813 C 12.554688 5.03125 12.207031 5.148438 11.902344 5.335938 C 10.851563 4.59375 9.496094 4.132813 8 4.046875 L 8 3 C 8 2.65625 8.109375 2.425781 8.277344 2.265625 C 8.445313 2.101563 8.683594 2 9 2 C 9.234375 2 9.582031 2.1875 10.121094 2.449219 C 10.660156 2.710938 11.390625 3 12.375 3 L 13 3 C 13.550781 3 14 2.550781 14 2 C 14 1.449219 13.550781 1 13 1 C 12.460938 1 12.019531 1.4375 12.003906 1.976563 C 11.410156 1.921875 10.964844 1.75 10.558594 1.550781 C 10.070313 1.3125 9.621094 1 9 1 Z M 7.5 5.007813 C 9.066406 5.007813 10.464844 5.488281 11.449219 6.230469 C 12.433594 6.972656 13 7.953125 13 9.007813 C 13 10.066406 12.433594 11.046875 11.449219 11.789063 C 10.464844 12.53125 9.066406 13.011719 7.5 13.011719 C 5.933594 13.011719 4.535156 12.53125 3.550781 11.789063 C 2.566406 11.046875 2 10.066406 2 9.007813 C 2 7.953125 2.566406 6.972656 3.550781 6.230469 C 4.535156 5.488281 5.933594 5.007813 7.5 5.007813 Z M 12.96875 6.007813 C 13.296875 5.988281 13.59375 6.101563 13.753906 6.273438 C 13.933594 6.503906 14.042969 6.890625 13.984375 7.257813 C 13.953125 7.4375 13.890625 7.609375 13.789063 7.765625 C 13.582031 7.140625 13.226563 6.566406 12.753906 6.0625 C 12.828125 6.046875 12.894531 6.011719 12.96875 6.007813 Z M 2.03125 6.007813 C 2.105469 6.015625 2.171875 6.046875 2.242188 6.066406 C 1.773438 6.566406 1.417969 7.140625 1.210938 7.765625 C 1.109375 7.609375 1.046875 7.4375 1.015625 7.257813 C 0.957031 6.886719 1.066406 6.503906 1.246094 6.273438 C 1.40625 6.101563 1.703125 5.988281 2.03125 6.007813 Z M 5 7 C 4.449219 7 4 7.449219 4 8 C 4 8.550781 4.449219 9 5 9 C 5.550781 9 6 8.550781 6 8 C 6 7.449219 5.550781 7 5 7 Z M 10 7 C 9.449219 7 9 7.449219 9 8 C 9 8.550781 9.449219 9 10 9 C 10.550781 9 11 8.550781 11 8 C 11 7.449219 10.550781 7 10 7 Z M 5 10 C 5.285156 10.929688 6.355469 12 7.5 12 C 8.644531 12 9.714844 11 10 10 C 9.484375 10.570313 8.472656 11 7.5 11 C 6.527344 11 5.515625 10.5 5 10 Z"></path>
+                </svg>
+              </a>
+              <a href="javascript:shareToTelegram();" class="follow-share-telegram">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 24 24">
+                  <path d="M 20.302734 2.984375 C 20.013769 2.996945 19.748583 3.080055 19.515625 3.171875 C 19.300407 3.256634 18.52754 3.5814726 17.296875 4.0976562 C 16.06621 4.61384 14.435476 5.2982348 12.697266 6.0292969 C 9.2208449 7.4914211 5.314238 9.1361259 3.3125 9.9785156 C 3.243759 10.007156 2.9645852 10.092621 2.65625 10.328125 C 2.3471996 10.564176 2.0039062 11.076462 2.0039062 11.636719 C 2.0039062 12.088671 2.2295201 12.548966 2.5019531 12.8125 C 2.7743861 13.076034 3.0504903 13.199244 3.28125 13.291016 L 3.28125 13.289062 C 4.0612776 13.599827 6.3906939 14.531938 6.9453125 14.753906 C 7.1420423 15.343433 7.9865895 17.867278 8.1875 18.501953 L 8.1855469 18.501953 C 8.3275588 18.951162 8.4659791 19.243913 8.6582031 19.488281 C 8.7543151 19.610465 8.8690398 19.721184 9.0097656 19.808594 C 9.0637596 19.842134 9.1235454 19.868148 9.1835938 19.892578 C 9.191962 19.896131 9.2005867 19.897012 9.2089844 19.900391 L 9.1855469 19.894531 C 9.2029579 19.901531 9.2185841 19.911859 9.2363281 19.917969 C 9.2652427 19.927926 9.2852873 19.927599 9.3242188 19.935547 C 9.4612233 19.977694 9.5979794 20.005859 9.7246094 20.005859 C 10.26822 20.005859 10.601562 19.710937 10.601562 19.710938 L 10.623047 19.695312 L 12.970703 17.708984 L 15.845703 20.369141 C 15.898217 20.443289 16.309604 21 17.261719 21 C 17.829844 21 18.279025 20.718791 18.566406 20.423828 C 18.853787 20.128866 19.032804 19.82706 19.113281 19.417969 L 19.115234 19.416016 C 19.179414 19.085834 21.931641 5.265625 21.931641 5.265625 L 21.925781 5.2890625 C 22.011441 4.9067171 22.036735 4.5369631 21.935547 4.1601562 C 21.834358 3.7833495 21.561271 3.4156252 21.232422 3.2226562 C 20.903572 3.0296874 20.591699 2.9718046 20.302734 2.984375 z M 19.908203 5.1738281 C 19.799442 5.7198576 17.33401 18.105877 17.181641 18.882812 L 13.029297 15.041016 L 10.222656 17.414062 L 11 14.375 C 11 14.375 16.362547 8.9468594 16.685547 8.6308594 C 16.945547 8.3778594 17 8.2891719 17 8.2011719 C 17 8.0841719 16.939781 8 16.800781 8 C 16.675781 8 16.506016 8.1197812 16.416016 8.1757812 C 15.272368 8.8887854 10.401283 11.664685 8.0058594 13.027344 C 7.8617016 12.96954 5.6973962 12.100458 4.53125 11.634766 C 6.6055146 10.76177 10.161156 9.2658083 13.472656 7.8730469 C 15.210571 7.142109 16.840822 6.4570977 18.070312 5.9414062 C 19.108158 5.5060977 19.649538 5.2807035 19.908203 5.1738281 z M 17.152344 19.025391 C 17.152344 19.025391 17.154297 19.025391 17.154297 19.025391 C 17.154252 19.025621 17.152444 19.03095 17.152344 19.03125 C 17.153615 19.024789 17.15139 19.03045 17.152344 19.025391 z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <script>
+            /* var _pageInfo = { name: "Skins for Roblox", url: "https://m.40407.com/en/games/88888" };
+
+            function shareToX() {
+              url = "https://twitter.com/intent/tweet?url=" + encodeURI(_pageInfo.url) + "&via=40407&text=" + _pageInfo.name;
+              open(url, "_blank");
+            }
+
+            function shareToFacebook() {
+              url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(_pageInfo.url);
+              open(url, "_blank");
+            }
+
+            function shareToWhatsapp() {
+              url = "https://api.whatsapp.com/send/?text=" + encodeURI(_pageInfo.url) + "&type=custom_url";
+              open(url, "_blank");
+            }
+
+            function shareToReddit() {
+              var url = "https://www.reddit.com/submit?url=" + encodeURI(_pageInfo.url) + "&title=" + _pageInfo.name;
+              open(url, "_blank");
+            }
+
+            function shareToTelegram() {
+              var url = "https://t.me/share/url?url=" + encodeURI(_pageInfo.url) + "&text=" + _pageInfo.name;
+              open(url, "_blank");
+            } */
+
+            function getMetaContentByName(name) {
+              var metaTag = document.querySelector(`meta[property='${name}']`);
+              return metaTag ? metaTag.getAttribute("content") : "";
+            }
+
+            function shareToX() {
+              var url = getMetaContentByName("og:url");
+              var text = getMetaContentByName("og:title");
+              var img = getMetaContentByName("og:image");
+              var twitterUrl = "https://twitter.com/intent/tweet?url=" + encodeURI(url) + "&via=40407&text=" + encodeURI(text) + "&media=" + encodeURI(img);
+              open(twitterUrl, "_blank");
+            }
+
+            function shareToFacebook() {
+              var url = getMetaContentByName("og:url");
+              var img = getMetaContentByName("og:image");
+              var facebookUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(url) + "&picture=" + encodeURI(img);
+              open(facebookUrl, "_blank");
+            }
+
+            function shareToWhatsapp() {
+              var url = getMetaContentByName("og:url");
+              var whatsappUrl = "https://api.whatsapp.com/send/?text=" + encodeURI(url) + "&type=custom_url";
+              open(whatsappUrl, "_blank");
+            }
+
+            function shareToReddit() {
+              var url = getMetaContentByName("og:url");
+              var text = getMetaContentByName("og:title");
+              var redditUrl = "https://www.reddit.com/submit?url=" + encodeURI(url) + "&title=" + encodeURI(text);
+              open(redditUrl, "_blank");
+            }
+
+            function shareToTelegram() {
+              var url = getMetaContentByName("og:url");
+              var text = getMetaContentByName("og:title");
+              var telegramUrl = "https://telegram.me/share/url?url=" + encodeURI(url) + "&text=" + encodeURI(text);
+              open(telegramUrl, "_blank");
+            }
+          </script>
+          <!-- share end-->
         </div>
       </div>
       <div class="h20"></div>
